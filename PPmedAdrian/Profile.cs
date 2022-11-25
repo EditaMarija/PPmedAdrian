@@ -9,6 +9,7 @@ namespace PPmedAdrian
     class Profile
     {
         public string Name { get; set; }
+        public string UserPassword { get; set; }
         public string Id { get; set; }
         public string Address { get; set; }
         public List<Profile> Friends { get; set; }
@@ -19,6 +20,13 @@ namespace PPmedAdrian
             Name = name;
             Address = address;
             Friends = new List<Profile>();
+        }
+
+        public Profile( string name, string userPassword)
+        {
+            Name = name;
+            UserPassword= userPassword;
+           
         }
 
         public void AddFriend(Profile friendToAdd)

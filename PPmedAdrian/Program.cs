@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            var getNetworks = new GetNetwork();
+            var loginRun = new Login();
+            while (true)
+            {
+                loginRun.LoginProfile();
+            }
+           
+
+            //var getNetworks = new GetNetwork();
         }
     }
 }

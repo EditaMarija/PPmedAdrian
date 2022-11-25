@@ -26,13 +26,12 @@ namespace PPmedAdrian
                 new Profile("6", "Morten", "Kodal")              
             };
         
-            while (true)
-            {
+            
                
                 PrintMenu();
                 var userInput = Console.ReadLine();
                 HandleMenuOptions(userInput);               
-            }           
+                      
         }
 
         public void PrintMenu()
