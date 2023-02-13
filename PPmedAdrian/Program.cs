@@ -10,8 +10,6 @@
                 loginRun.LoginProfile();
             }
            
-
-            //var getNetworks = new GetNetwork();
         }
     }
 }

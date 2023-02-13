@@ -13,7 +13,6 @@ namespace PPmedAdrian
             new Profile("Marija", "123"),
             new Profile("Adrian", "456"),
             
-
         };
 
 
@@ -39,7 +38,6 @@ namespace PPmedAdrian
                         Console.WriteLine("Fail. Try again!");
 
                     }
-
                 }          
             
         }
